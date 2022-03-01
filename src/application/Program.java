@@ -38,7 +38,7 @@ public class Program {
 		sellerDao.insert(newSeller);
 		System.out.println("Inserted! New id = " + newSeller.getId());
 		
-		System.out.println("\n=== TST 5: seller insert ===");
+		System.out.println("\n=== TST 5: seller Udade ===");
 		seller = sellerDao.findById(1);
 		seller.setName("Martha waine");
 		seller.setBaseSalary(2200.00);
